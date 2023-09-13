@@ -144,8 +144,8 @@ async function test() {
 
 
     //dar de alta productos
-    // await productManager.addProduct(path, 'producto prueba1', 'esto es un producto prueba1', 300, "Sin imagen1", "abc131", 34);
-    // await productManager.addProduct(path, 'producto prueba2', 'esto es un producto prueba2', 400, "Sin imagen2", "abc1222", 45);
+    await productManager.addProduct(path, 'producto prueba1', 'esto es un producto prueba1', 300, "Sin imagen1", "abc131", 34);
+    await productManager.addProduct(path, 'producto prueba2', 'esto es un producto prueba2', 400, "Sin imagen2", "abc1222", 45);
 
 
     //generar error de duplicado y guardar el que cumpla los requisitos.
